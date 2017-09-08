@@ -1,0 +1,14 @@
+.left, .right {
+    background: #e8e8e8;
+    height: 1px;
+    flex: 1;
+}
+  
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin: 28px 0px;
+}
+  
+.left { margin-right: 7px; }
+.right { margin-left: 7px; }

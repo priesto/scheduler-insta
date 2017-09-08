@@ -1,8 +1,10 @@
 const Api = {};
 
-Api.login = () => {}
-Api.logout = () => {}
-Api.signup = () => {}
+Api.login = async () => {}
+Api.logout = async () => {}
+Api.signup = async () => {}
 
-Api.fetchAccounts = () => {}
-Api.fetchPosts = () => {}
+Api.fetchAccounts = async () => {}
+Api.fetchPosts = async () => {}
+
+export default Api;
