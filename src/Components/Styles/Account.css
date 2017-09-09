@@ -1,0 +1,9 @@
+.account {
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.account:hover { transform: scale(1.05); }

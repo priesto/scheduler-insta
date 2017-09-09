@@ -1,0 +1,3 @@
+.accounts-list { height: 150px; display: flex; justify-content: center; align-items: center; }
+.accounts-list > * { margin-right: 5px; }
+.accounts-list > :last-child { margin-right: 0px; }

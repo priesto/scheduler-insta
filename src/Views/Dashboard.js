@@ -1,2 +1,10 @@
 import React from 'react';
-export default () => <h1>Dashboard</h1>
+
+import AccountsContainer from '../Containers/AccountsContainer';
+
+export default () => (
+    <div>
+        <AccountsContainer />
+        <hr style={{height: '1px', background: '#e8e8e8', width: '100%', border: 'none'}}/>
+    </div>
+)
