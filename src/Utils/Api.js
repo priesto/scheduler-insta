@@ -1,10 +1,12 @@
 const Api = {};
 
-Api.login = async () => {}
-Api.logout = async () => {}
-Api.signup = async () => {}
+Api.fetchAccounts = () => {
+    return fetch('http://localhost:8080/accounts')
+        .then((res) => res.json())
+        .then((accounts) => accounts)
+        .catch((err) => err);
+}
 
-Api.fetchAccounts = async () => {}
-Api.fetchPosts = async () => {}
+Api.fetchPosts = () => {}
 
 export default Api;

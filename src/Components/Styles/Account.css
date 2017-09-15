@@ -4,6 +4,15 @@
     background-size: cover;
     border-radius: 50%;
     transition: all .2s ease-in-out;
+    position: relative;
 }
 
 .account:hover { transform: scale(1.05); }
+
+.account-settings {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+}
